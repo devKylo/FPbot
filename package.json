@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/LoganMD/FPbot/issues"
   },
-  "homepage": "https://github.com/LoganMD/FPbot#readme"
+  "homepage": "https://github.com/LoganMD/FPbot#readme",
+  "dependencies": {
+    "discord.js": "github:discordjs/discord.js"
+  }
 }
