@@ -17,6 +17,6 @@ exports.info = {
   description: "Ping command",
   aliases: [],
   guildOnly: false,
-  category: "Tools",
+  category: "Tests",
   hidden: false
 }
