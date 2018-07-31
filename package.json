@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/LoganMD/FPbot#readme",
   "dependencies": {
-    "discord.js": "github:discordjs/discord.js"
+    "discord.js": "github:discordjs/discord.js",
+    "enmap": "^2.7.2"
   }
 }
