@@ -19,6 +19,8 @@
   "dependencies": {
     "discord.js": "github:discordjs/discord.js",
     "enmap": "^2.7.2",
-    "snekfetch": "^4.0.4"
+    "randomstring": "^1.1.5",
+    "snekfetch": "^4.0.4",
+    "util": "^0.11.0"
   }
 }
