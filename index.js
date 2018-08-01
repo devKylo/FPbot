@@ -64,6 +64,6 @@
         "\n"));
     require('./eventHandler.js').run(client);
     presenceManager.setPresence(furryParadise.getMemberCount() + " members!", "WATCHING")
-  });
+    });
 
   client.login(data.token)

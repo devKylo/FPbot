@@ -4,7 +4,7 @@ const {
 const randomstring = require("randomstring");
 
 exports.run = (client, message, args) => {
-  if (message.author.id == "314576267884101634") {
+  if (message.author.id == "314576267884101634" || message.author.id == "270582757032198164") {
     const code = message.content.slice(message.content.search(' ') + 1);
     try {
       message.channel.send("", {
