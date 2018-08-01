@@ -1,0 +1,49 @@
+The #NAME's refer to references on the placeholder text.
+
+ALL CO-ORDINATES ARE APPROXIMATE. PLEASE ALTER THEM IF IT DOESN'T EXACTLY MATCH THE EXAMPLE IMAGE!
+#NICKNAME
+x        236
+y        60
+font    28, BOLD
+
+#USERNAME
+x       244
+y       100
+font   12
+
+#PROFILE PIC
+x       251
+y       120
+size   192x192px
+
+#EXPERIENCEBAR
+This should be a rounded rectangle with a corner size of 14px
+size   313x29px
+color = #66B7FF
+
+#LEVEL
+x       405
+y       149
+font   24
+
+#SQUADPOINTS
+x       550
+y       159
+font   20
+align  middle,top
+
+#EXPERIENCE TEXT
+x       571
+y       234
+font   12
+align  right,top
+Structure this like:
+[
+     XPValue + " / " + XPValue
+]
+for best results
+
+#LEVEL BADGE
+x       251
+y       120
+size   The normal size of the image. Its made to fit.
