@@ -20,6 +20,7 @@
     "canvas": "^2.0.0-alpha.12",
     "discord.js": "github:discordjs/discord.js",
     "enmap": "^2.7.2",
+    "enmap-level": "^2.1.0",
     "node-chartjs": "0.0.7",
     "node-fetch": "^2.2.0",
     "pixl-request": "^1.0.21",

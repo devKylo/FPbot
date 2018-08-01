@@ -1,8 +1,11 @@
   Discord = require("discord.js")
   const client = new Discord.Client()
   const data = require("./super-secret-data.json")
-  const Enmap = require("enmap");
   const fs = require("fs");
+  const Enmap = require('enmap');
+  const EnmapLevel = require('enmap-level');
+  const level = new EnmapLevel({ name: 'userData' });
+  userData = new Enmap({ provider: level });
 
   furryParadise = {
     getMemberCount: function() {
