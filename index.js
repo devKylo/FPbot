@@ -7,6 +7,8 @@
   const level = new EnmapLevel({ name: 'userData' });
   userData = new Enmap({ provider: level });
 
+  require("./webServer.js")
+
   furryParadise = {
     getMemberCount: function() {
       return client.guilds.get("301615194520551426").members.size
