@@ -1,0 +1,17 @@
+<p>website lol</p>
+<script type="text/javascript">
+  window.onload = function(){
+    const Http = new XMLHttpRequest();
+    const url='http://localhost:3003/memberCount';
+    Http.open("GET", url);
+    Http.send();
+    Http.onreadystatechange=(e)=>{
+      document.getElementById('memberCount').innerHTML = Http.responseText;
+    }
+};
+
+</script>
+<body>
+    <p id="memberCount"></p>
+    <p>
+</body>

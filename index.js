@@ -63,7 +63,7 @@
   };
 
   client.on('ready', () => {
-    console.log("online.");
+    console.log("BOT ONLINE");
     loadCommands("./commands/", client.commands);
     console.log("Commands Loading\n" + Array.from(client.commands.keys()).join(
         "\n"));
