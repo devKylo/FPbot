@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" href="style.css">
 <p>website lol</p>
 <script type="text/javascript">
   window.onload = function(){
@@ -6,12 +7,13 @@
     Http.open("GET", url);
     Http.send();
     Http.onreadystatechange=(e)=>{
-      document.getElementById('memberCount').innerHTML = Http.responseText;
+      document.getElementById('memberCount').innerHTML = Http.responseText + " members and counting";
     }
 };
-
 </script>
 <body>
+  <div>
     <p id="memberCount"></p>
-    <p>
+  </div>
+    <p>despawcito</p>
 </body>
