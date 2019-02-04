@@ -1,4 +1,5 @@
-  Discord = require("discord.js")
+//made with <3 by logandev and kyle  
+Discord = require("discord.js")
   const client = new Discord.Client()
   const data = require("./super-secret-data.json")
   const fs = require("fs");
